@@ -47,4 +47,3 @@ public class SortTypeUI implements ListDiffInterface<SortTypeUI> {
         return result;
     }
 }
-
