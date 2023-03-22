@@ -9,6 +9,7 @@ public class FilterContactTypeUi implements ListDiffInterface<FilterContactTypeU
     private final FilterContactType contactType;
     private final boolean selected;
 
+
     public FilterContactTypeUi(@NonNull FilterContactType contactType, boolean selected) {
         this.contactType = contactType;
         this.selected = selected;

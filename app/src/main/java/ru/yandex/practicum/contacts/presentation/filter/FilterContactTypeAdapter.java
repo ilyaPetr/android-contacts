@@ -64,6 +64,7 @@ public class FilterContactTypeAdapter extends RecyclerView.Adapter<FilterContact
 
         private FilterContactTypeUi data;
 
+
         public ViewHolder(@NonNull ItemFilterBinding binding, Consumer<FilterContactTypeUi> clickListener) {
             super(binding.getRoot());
             this.binding = binding;
